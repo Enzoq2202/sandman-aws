@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  flaskapp:
+    build: .
+    ports:
+      - "8000:8000"  # Alterado para 5000
